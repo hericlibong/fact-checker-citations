@@ -1,19 +1,6 @@
 # Assistant Fact-Checker de Citations
 
 
----
-
-## 📝 Étape suivante : Complétons le `README.md`
-
-Je te propose une **première version structurée**, claire et concise, que tu pourras modifier ou étoffer au fil du projet :
-
----
-
-### 📄 `README.md` – version 1
-
-```markdown
-# Assistant Fact-Checker de Citations
-
 Ce projet est un outil d’aide à la vérification de citations, destiné aux journalistes, blogueurs ou rédacteurs souhaitant s’assurer de la véracité d’une citation avant publication.
 
 L'utilisateur peut entrer une citation, et l'outil interroge automatiquement des sources fiables comme Wikipedia pour retrouver des correspondances, analyser le contexte, et retourner un score de similarité sémantique.
@@ -75,6 +62,5 @@ streamlit run app/main.py
 ## 📃 Licence
 
 Ce projet est open-source, sous licence MIT.
-```
 
 ---
