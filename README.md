@@ -59,6 +59,29 @@ streamlit run app/main.py
 
 ---
 
+
+## Structure prévisionelle
+
+fact-checker-citations/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py              # Lancement Streamlit
+│   ├── nlp_utils.py         # Traitement citation : nettoyage, entités, score
+│   ├── search_engines.py    # Connexion Wikipedia API
+│   ├── similarity.py        # Modèle Sentence Transformers
+│   ├── storage.py           # Historique en JSON
+│
+├── tests/
+│   ├── test_nlp_utils.py
+│   ├── test_similarity.py
+│
+├── data/                    # Stockage JSON ou fichiers temporaires
+│   └── history.json
+
+
+---
+
 ## 📃 Licence
 
 Ce projet est open-source, sous licence MIT.
