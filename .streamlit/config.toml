@@ -1,0 +1,8 @@
+[logger]
+level = "info"
+
+[server]
+fileWatcherType = "auto"
+
+[client]
+showErrorDetails = false

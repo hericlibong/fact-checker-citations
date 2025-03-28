@@ -80,6 +80,24 @@ fact-checker-citations/
 │   └── history.json
 
 
+## 💡 Notes de fonctionnement avec Streamlit
+
+Cette application utilise `streamlit` avec des librairies comme `torch` et `transformers`.
+
+⚠️ Lors du lancement, des **erreurs non bloquantes** liées à `torch.classes` peuvent apparaître dans le terminal.  
+Elles n'affectent pas le fonctionnement de l'application et peuvent être ignorées.
+
+Pour garder un bon équilibre entre confort et fiabilité :
+
+- Le watcher (auto-reload) est conservé
+- Le niveau de logs est limité à `info`
+- Les détails d'erreurs ne sont pas affichés dans l'interface
+
+✅ L'application fonctionne correctement malgré ces messages techniques.
+
+
+
+
 ---
 
 ## 📃 Licence
